@@ -13,13 +13,13 @@ pierre.addEventListener("click", () => {
         let choixCiseaux = 2
         let aleachiffre = Math.floor(Math.random() * 3)
         if(aleachiffre == choixPierre){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine : </p> <img src="../UI_version/pierre.png" alt="">`
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine : </p> <img src="./UI_version/pierre.png" alt="">`
         }
         else if(aleachiffre == choixFeuille){
-            document.querySelector(".choixMachine").innerHTML = `<p> choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p> Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
         }
         else if(aleachiffre == choixCiseaux){
-            document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="./UI_version/ciseaux.png" alt="">` 
         }
         return aleachiffre
     }
@@ -28,7 +28,7 @@ pierre.addEventListener("click", () => {
 
     if(choix == 0){
         document.querySelector(".gagnantManche").textContent = `EGALITE`
-        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine : </p> <img src="../UI_version/pierre.png" alt="">`
+        document.querySelector(".choixMachine").innerHTML = ` <p> Choix de la machine :</p><img src="./UI_version/pierre.png" alt="">`
 
     }
     else if(choix == 1){
@@ -46,7 +46,7 @@ pierre.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p> choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p> Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
     }
     else if(choix == 2){
         scoreHumain++
@@ -63,11 +63,11 @@ pierre.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/ciseaux.png" alt="">` 
     } 
 
    setTimeout(() => {
-    document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/question_mark.png" width="80" alt="">`
+    document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/question_mark.png" width="80" alt="">`
    }, 1500)
 
 
@@ -82,13 +82,13 @@ feuille.addEventListener("click", () => {
         let choixCiseaux = 2
         let aleachiffre = Math.floor(Math.random() * 3)
         if(aleachiffre == choixPierre){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p> <img src="../UI_version/pierre.png" alt="">`
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p> <img src="./UI_version/pierre.png" alt="">`
         }
         else if(aleachiffre == choixFeuille){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
         }
         else if(aleachiffre == choixCiseaux){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/ciseaux.png"  alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/ciseaux.png"  alt="">` 
         }
         return aleachiffre
     }
@@ -110,11 +110,11 @@ feuille.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/pierre.png" alt="">` 
     }
     else if(choix == 1){
         document.querySelector(".gagnantManche").textContent = `EGALITE`
-        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
     }
     else if(choix == 2){
         scoreMachine++
@@ -131,11 +131,11 @@ feuille.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p> choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p> Choix de la machine :</p><img src="./UI_version/ciseaux.png" alt="">` 
     }
 
     setTimeout(() => {
-        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/question_mark.png" width="80" alt="">`
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/question_mark.png" width="80" alt="">`
        }, 1500)
 })
 
@@ -149,13 +149,13 @@ ciseaux.addEventListener("click", () => {
         let choixCiseaux = 2
         let aleachiffre = Math.floor(Math.random() * 3)
         if(aleachiffre == choixPierre){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine : </p> <img src="../UI_version/pierre.png" alt="">`
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine : </p> <img src="./UI_version/pierre.png" alt="">`
         }
         else if(aleachiffre == choixFeuille){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
         }
         else if(aleachiffre == choixCiseaux){
-            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+            document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/ciseaux.png" alt="">` 
         }
         return aleachiffre
     }
@@ -177,7 +177,7 @@ ciseaux.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p> choix de la machine :</p><img src="../UI_version/feuille.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p> Choix de la machine :</p><img src="./UI_version/pierre.png" alt="">` 
     }
     else if(choix == 1){
         scoreHumain++
@@ -194,15 +194,15 @@ ciseaux.addEventListener("click", () => {
                }, 1500)
         }
 
-        document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/feuille.png" alt="">` 
     }
     else if(choix == 2){
         document.querySelector(".gagnantManche").textContent = `EGALITE`
-        document.querySelector(".choixMachine").innerHTML = `<p>choix de la machine :</p><img src="../UI_version/ciseaux.png" alt="">` 
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/ciseaux.png" alt="">` 
     }
 
     setTimeout(() => {
-        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="../UI_version/question_mark.png" width="80" alt="">`
+        document.querySelector(".choixMachine").innerHTML = `<p>Choix de la machine :</p><img src="./UI_version/question_mark.png" width="80" alt="">`
        }, 1500)
 
 })
