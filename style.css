@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreHumain, .scoreMachine{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-weight: bold;
+    align-items: center;
+}
+
+.gagnantManche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    flex-grow: 1;
+}
+
+.choix {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.choixHumain, .choixMachine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
